@@ -19,3 +19,7 @@ Route::get('/abc', function () {
     return view('welcome');
 //    return "<p style='margin-top: 22%;text-align: center'>PHP是世界上最好的语言<p>";
 });
+Route::get('/b', function () {
+    return 'wel';
+//    return "<p style='margin-top: 22%;text-align: center'>PHP是世界上最好的语言<p>";
+});
